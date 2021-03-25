@@ -7,13 +7,12 @@ Complete the given program with string declaration/initialization & read/print t
 //Expected input & output:-
 //Enter a String: Vidyavardhaka
 //The input string is Vidyavardhaka
-
 #include <stdio.h>
 int main() 
 {
-                      //Declare the string
-printf("Enter a String: ")
-                      //read the string from user
-                      //Print the string
+char str[20];//Declare the string
+printf("Enter a string: ");
+scanf("%s",str);//read the string from user
+printf("the Entered string is %s",str);//print the string
 return 0;
 }
